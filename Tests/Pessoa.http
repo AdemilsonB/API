@@ -1,0 +1,13 @@
+### Cadastrar uma nova pessoa
+POST https://localhost:5001/api/pessoa/create
+Content-Type: application/json
+
+{
+    "Nome" : "Joao",
+    "Cpf" : "123",
+    "Email" : "Joao123@gmail.com",
+    "Idade" : 20
+}
+
+### Listar todos os produtos
+GET https://localhost:5001/api/produto/list
